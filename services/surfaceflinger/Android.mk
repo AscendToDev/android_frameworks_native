@@ -145,6 +145,8 @@ LOCAL_MODULE := libsurfaceflinger
 
 LOCAL_CFLAGS += -Wall -Werror -Wunused -Wunreachable-code
 
+LOCAL_CLANG_LTO := true
+
 include $(BUILD_SHARED_LIBRARY)
 
 ###############################################################
